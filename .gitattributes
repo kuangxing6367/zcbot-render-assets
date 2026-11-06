@@ -1,0 +1,8 @@
+# 统一 LF：脚本、markdown 都按 Unix 换行存库，避免 Windows 提交 CRLF 后
+# 在 Linux / CI 上把 \r 带进 shell 与 python 源码。
+* text=auto eol=lf
+
+*.pyd binary
+*.so  binary
+*.ttf binary
+*.zip binary
