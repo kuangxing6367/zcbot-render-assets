@@ -1,0 +1,9 @@
+# assets.zip 一律走 Release，不进仓库历史（避免 clone 变重、避免仓库无限增长）
+*.zip
+*.pyd
+*.so
+
+# publish.py 的临时产物
+.release_notes.generated.md
+__pycache__/
+*.pyc
